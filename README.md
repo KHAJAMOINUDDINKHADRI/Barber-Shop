@@ -1,73 +1,117 @@
-# Welcome to your Lovable project
+# PMC Barbershop Website
 
-## Project info
+A frontend clone of [PMC Barbershop](https://pmcbarber.devfrend.com) built with React, TypeScript, and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/b08d8691-728c-49d3-a379-b5dec24755a9
+![PMC Barbershop](public/Assets/images/logo.png)
 
-## How can I edit this code?
+## 🛠️ Tech Stack
 
-There are several ways of editing your application.
+- **Frontend Framework:** React 18
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **UI Components:** Shadcn UI
+- **Icons:** Lucide Icons
+- **Build Tool:** Vite
+- **Form Handling:** React Hook Form
+- **Animations:** Framer Motion
+- **Routing:** React Router DOM
 
-**Use Lovable**
+## 📦 Installation
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b08d8691-728c-49d3-a379-b5dec24755a9) and start prompting.
+1. Clone the repository:
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
+```bash
+git clone https://github.com/KHAJAMOINUDDINKHADRI/Barber-Shop.git
 cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
 ```
 
-**Edit a file directly in GitHub**
+2. Install dependencies:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm install
+# or
+yarn install
+# or
+bun install
+```
 
-**Use GitHub Codespaces**
+3. Start the development server:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+bun dev
+```
 
-## What technologies are used for this project?
+## 🏗️ Build
 
-This project is built with:
+To create a production build:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```bash
+npm run build
+# or
+yarn build
+# or
+bun build
+```
 
-## How can I deploy this project?
+## 📁 Project Structure
 
-Simply open [Lovable](https://lovable.dev/projects/b08d8691-728c-49d3-a379-b5dec24755a9) and click on Share -> Publish.
+```
+barber-clone/
+├── public/
+│   └── Assets/
+│       └── images/
+├── src/
+│   ├── components/
+│   │   ├── ui/
+│   │   └── [other components]
+│   ├── pages/
+│   ├── hooks/
+│   ├── lib/
+│   └── types/
+├── index.html
+└── package.json
+```
 
-## Can I connect a custom domain to my Lovable project?
+## 🎨 Components
 
-Yes, you can!
+- **Navbar:** Responsive navigation with mobile menu
+- **HeroSection:** Main landing section with call-to-action
+- **AboutSection:** Company information and story
+- **ServicesSection:** Available services and pricing
+- **AdvantageSection:** Key benefits and unique selling points
+- **TestimonialSection:** Customer reviews and feedback
+- **PricingSection:** Detailed service pricing and packages
+- **GallerySection:** Image gallery showcasing our work
+- **ProfessionalSection:** Team members and their expertise
+- **LocationSection:** Business location and directions
+- **FaqSection:** Frequently asked questions
+- **ContactSection:** Contact form and information
+- **CtaSection:** Call-to-action for appointments
+- **Footer:** Site footer with links and newsletter
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🔧 Configuration
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+The project uses several configuration files:
+
+- `tailwind.config.ts` - Tailwind CSS configuration
+- `vite.config.ts` - Vite build configuration
+- `tsconfig.json` - TypeScript configuration
+
+## 📱 Responsive Design
+
+The website is fully responsive and works on:
+
+- Mobile devices
+- Tablets
+- Desktops
+- Large screens
+
+
+## 📞 Contact
+
+Khaja Moinuddin Khadri
+Project Link: [https://github.com/KHAJAMOINUDDINKHADRI/Barber-Shop](https://github.com/KHAJAMOINUDDINKHADRI/Barber-Shop)
