@@ -2,7 +2,8 @@
 
 A frontend clone of [PMC Barbershop](https://pmcbarber.devfrend.com) built with React, TypeScript, and Tailwind CSS.
 
-![PMC Barbershop](public/Assets/images/logo.png)
+Chekc [Live Website](https://barbershop-psi-two.vercel.app)
+
 
 ## 🛠️ Tech Stack
 
