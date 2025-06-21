@@ -1,6 +1,6 @@
 # PMC Barbershop Website
 
-A frontend clone of [PMC Barbershop](https://pmcbarber.devfrend.com) built with React, TypeScript, and Tailwind CSS.
+A landing page clone of [PMC Barbershop](https://pmcbarber.devfrend.com) built with React, TypeScript, and Tailwind CSS.
 
 Check [Live Website](https://barber-shop-kmk.netlify.app)
 
